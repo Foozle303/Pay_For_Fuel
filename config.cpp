@@ -16,8 +16,8 @@ class CfgMods
         type = "mod";
         dir = "Pay_For_Fuel";
         name = "Pay For Fuel";
-        credits = "";
-        author = "Pay For Fuel";
+        credits = "OldGitZ";
+        author = "f00zle";
         authorID = "0";
         version = "1.0";
         dependencies[] = {"World"};
