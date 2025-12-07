@@ -318,7 +318,7 @@ class PayForFuelMessages
     }
 }
 
-modded class ActionRefuel
+modded class ActionRefuel : ActionContinuousBase
 {
     override bool ActionCondition(PlayerBase player, ActionTarget target, ItemBase item)
     {
