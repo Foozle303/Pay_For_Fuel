@@ -22,6 +22,7 @@ class CfgMods
         authorID = "0";
         version = "1.0";
         dependencies[] = {"Game", "World"};
+        dependencies[] = {"World"};
 
         class defs
         {
