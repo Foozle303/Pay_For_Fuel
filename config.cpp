@@ -5,6 +5,7 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
+        // ActionRefuel lives in the core script pack, so we only need the base script addons here.
         requiredAddons[] = {"DZ_Data", "DZ_Scripts"};
     };
 };
@@ -20,6 +21,7 @@ class CfgMods
         author = "f00zle";
         authorID = "0";
         version = "1.0";
+        dependencies[] = {"Game", "World"};
         dependencies[] = {"World"};
 
         class defs
